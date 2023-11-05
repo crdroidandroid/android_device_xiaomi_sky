@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_kernel_xiaomi_sky-kernel",
+    "target_path": "device/xiaomi/sky-kernel"
+  }
+]

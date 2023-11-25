@@ -12,8 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Configure full_base_telephony.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit common LineageOS configurations
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit common Evolution-X configurations
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Inherit device configurations
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
@@ -35,3 +35,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRIVATE_BUILD_DESC="sky-user 12 TKQ1.221114.001 V14.0.5.0.TMWINXM release-keys"
 
 BUILD_FINGERPRINT := Redmi/sky/sky:12/TKQ1.221114.001/V14.0.5.0.TMWINXM:user/release-keys
+
+EVO_MAINTAINER := LazyBones
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true 
+TARGET_SUPPORTS_QUICK_TAP := true 
+TARGET_SUPPORTS_TOUCHGESTURES := true 

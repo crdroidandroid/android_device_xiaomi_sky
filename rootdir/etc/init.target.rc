@@ -78,6 +78,9 @@ on late-fs
     # Enable ZRAM on boot_complete
     swapon_all /vendor/etc/fstab.qcom
 
+   # STOP EATING MY BATTERY AFTER 100H OF UPTIME FUCK YOU
+    stop statsd
+
 on post-fs-data
     mkdir /vendor/data/tombstones 0771 system system
     # Enable WLAN cold boot calibration

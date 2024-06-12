@@ -320,6 +320,7 @@ ro.soc.manufacturer=QTI
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # USB
+ro.usb.uvc.enabled=true
 persist.sys.usb.config=none
 vendor.usb.diag.func.name=ffs
 vendor.usb.dpl.inst.name=dpl

@@ -259,7 +259,6 @@ vendor.gralloc.disable_ubwc=0
 
 # Media
 debug.c2.use_dmabufheaps=1
-debug.mdpcomp.logs=0
 debug.stagefright.c2inputsurface=-1
 vendor.media.omx=0
 

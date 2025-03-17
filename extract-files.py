@@ -64,6 +64,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/lib64/nfc_nci.nqx.default.hw.so': blob_fixup()
+	.add_needed('libbase_shim.so'),
     'vendor/etc/libnfc-nxp-pnscr.conf': blob_fixup()
          .regex_replace(
  	    'NXP_T4T_NFCEE_ENABLE=0x01', 'NXP_T4T_NFCEE_ENABLE=0x00'

@@ -34,4 +34,18 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>qccsyshal</instance>
         </interface>
     </hal>
+    <hal format="hidl">
+        <name>android.hardware.media.c2</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IComponentStore/default1</fqname>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.dolby.hardware.dms</name>
+        <transport>hwbinder</transport>
+        <version>2.0</version>
+        <interface>
+            <name>IDms</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </manifest>

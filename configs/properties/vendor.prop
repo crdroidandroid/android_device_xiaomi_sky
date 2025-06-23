@@ -270,6 +270,7 @@ ro.surface_flinger.clear_slots_with_set_layer_buffer=true
 # HWUI
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
+debug.sf.enable_adpf_cpu_hint=true
 
 # Media
 debug.c2.use_dmabufheaps=1

@@ -279,3 +279,8 @@ service mi_thermald /system/vendor/bin/mi_thermald
     user root
     group system
     seclabel u:r:mi_thermald:s0
+
+# Restrict access on this node
+on property:sys.boot_completed=1
+    # Only owner can acces this node
+    chmod 440 /proc/net/unix

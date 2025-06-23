@@ -97,6 +97,9 @@ BOARD_HAVE_QCOM_FM := true
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 $(call soong_config_set, qtilocation, feature_nhz, false)
 
+# HWUIAdd commentMore actions
+HWUI_COMPILE_FOR_PERF := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_sky
 

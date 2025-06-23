@@ -229,6 +229,7 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 vendor.gatekeeper.disable_spu=true
 
 # Graphics
+debug.hwui.skia_atrace_enabled=false
 persist.sys.sf.color_saturation=1.0
 persist.sys.sf.color_mode=7
 persist.sys.sf.native_mode=256

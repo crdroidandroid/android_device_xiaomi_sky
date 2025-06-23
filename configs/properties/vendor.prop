@@ -117,6 +117,7 @@ vendor.audio.feature.wsa.enable=false
 vendor.audio.flac.sw.decoder.24bit=true
 vendor.audio.hal.boot.timeout.ms=20000
 vendor.audio.hal.output.suspend.supported=true
+vendor.audio.feature.compr_voip.enable=true
 vendor.audio.hdr.record.enable=false
 vendor.audio.hw.aac.encoder=false
 vendor.audio.offload.buffer.size.kb=256

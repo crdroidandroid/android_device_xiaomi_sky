@@ -1,3 +1,4 @@
+
 # Audio
 aaudio.hw_burst_min_usec=2000
 aaudio.mmap_exclusive_policy=2
@@ -272,6 +273,7 @@ ro.vendor.perf.scroll_opt=1
 ro.vendor.perf.scroll_opt.heavy_app=2
 vendor.power.pasr.enabled=false
 vendor.pasr.activemode.enabled=false
+vendor.perf.framepacing.enable=1
 
 # QFP
 persist.vendor.qfp=true

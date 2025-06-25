@@ -1,4 +1,4 @@
-#Device proprietary files - from sky HyperOS OS2.0.8.0.VMWEUXM package, unless pinned
+# Device proprietary files - from sky HyperOS OS2.0.9.0.VMWEUXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd

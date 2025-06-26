@@ -86,6 +86,9 @@
         <!--DOLBY END-->
         <!--DOLBY VQE-->
         <library name="vqe" path="libswvqe.so"/>
+        <!--Spatial Audio-->
+        <library name="spatializer" path="libswspatializer.so"/>
+    	<!--Spatial Audio-->
         <!--DOLBY END-->
     </libraries>
     <effects>
@@ -148,6 +151,9 @@
         <!--DOLBY END-->
         <!--DOLBY VQE-->
         <effect name="vqe" library="vqe" uuid="64a0f614-7fa4-48b8-b081-d59dc954616f"/>
+        <!--Spatial Audio-->
+        <effect name="spatializer" library="spatializer" uuid="ccd4cf09-a79d-46c2-9aae-06a1698d6c8f"/>
+	    <!--Spatial Audio-->
         <!--DOLBY END-->
     </effects>
     <postprocess>

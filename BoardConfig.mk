@@ -100,9 +100,6 @@ $(call soong_config_set, qtilocation, feature_nhz, false)
 # HWUIAdd commentMore actions
 HWUI_COMPILE_FOR_PERF := true
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_sky
-
 # Kernel
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_BASE := 0x00000000

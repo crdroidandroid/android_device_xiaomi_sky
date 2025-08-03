@@ -137,6 +137,9 @@ vendor.audio_hal.in_period_size=144
 vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=192
 
+# APK Verity
+ro.apk_verity.mode=2
+
 # Bluetooth
 bluetooth.hardware.power.idle_cur_ma=6
 bluetooth.hardware.power.operating_voltage_mv=3700
